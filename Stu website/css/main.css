@@ -6,7 +6,7 @@ max-width: 100%;
     z-index: 1;
 }
 body {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(205, 205, 205);
     z-index: 1;
     width:95%;
     height: 100%;
@@ -14,6 +14,56 @@ body {
 div.center{
     text-align:center;
 }
+
+.flexcontainer{
+    height:100%;
+    display: flex;
+    flex-wrap: wrap;
+    position:relative;
+    margin-top:0%;
+    align-items: center;
+    justify-content: center;
+}
+.button{
+    border: none;
+    padding: 100px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 10px 8px;
+    z-index: 3;
+    height: 100px;
+    width: 100px;
+    color:rgb(255, 255, 255);
+    font-weight:bold;
+  }
+.button1 {
+    border-radius: 50%;
+    background: url('img/sky3.jpg');
+    background-size: cover;
+opacity: 1; }
+.button2 {
+    border-radius: 50%;
+    background: url('img/sky2.jpg');
+    background-size: cover;}
+.button3 {
+    border-radius: 50%;
+    background: url('img/bridge.jpeg');
+    background-size: cover;}
+.button4 {
+    border-radius: 50%;
+    background: url('img/sky1.jpg');
+    background-size: cover;}
+.button5 {
+    border-radius: 50%;
+    background: url('img/sky2.jpg');
+    background-size: cover;}
+.button6 {
+    border-radius: 50%;
+    background: url('img/plant1.jpeg');
+    background-size: cover;}
+
+
 .header{
     z-index: 5;
     height:65%;
@@ -48,50 +98,3 @@ h1.headertext{
     position:relative;
     color:rgb(255, 255, 255);
 }
-.flexcontainer{
-    height:100%;
-    display: flex;
-    flex-wrap: wrap;
-    position:relative;
-    margin-top:0%;
-    align-items: center;
-    justify-content: center;
-}
-.button{
-    border: none;
-    padding: 20px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-    margin: 10px 8px;
-    z-index: 3;
-    height: 100px;
-    width: 100px;
-    color:rgb(255, 255, 255);
-    font-weight:bold;
-  }
-.button1 {
-    border-radius: 50%;
-    background: url('img/sky3.jpg');
-    background-size: cover;}
-.button2 {
-    border-radius: 50%;
-    background: url('img/sky2.jpg');
-    background-size: cover;}
-.button3 {
-    border-radius: 50%;
-    background: url('img/bridge.jpeg');
-    background-size: cover;}
-.button4 {
-    border-radius: 50%;
-    background: url('img/sky1.jpg');
-    background-size: cover;}
-.button5 {
-    border-radius: 50%;
-    background: url('img/sky2.jpg');
-    background-size: cover;}
-.button6 {
-    border-radius: 50%;
-    background: url('img/plant1.jpeg');
-    background-size: cover;}
-
